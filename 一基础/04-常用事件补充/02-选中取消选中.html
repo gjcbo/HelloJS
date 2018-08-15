@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02-选中取消选中</title>
+    <!--设置样式-->
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #panel {
+            width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px #000;
+        }
+
+       #panel .panel-header {
+           text-align: center;
+       }
+
+        #panel .panel-content {
+            margin-top: 10px;
+        }
+
+
+        #panel  .panel-footer {
+           text-align: center;
+            margin:10px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="panel">
+    <section class="panel-header">
+        <h2>歌曲排行榜</h2>
+        <hr>
+    </section>
+    <section class="panel-content">
+        <input type="checkbox">1.我很好那么你呢？<br>
+        <input type="checkbox">2.海阔天空<br>
+        <input type="checkbox">3真的爱你<br>
+        <input type="checkbox">4.不再犹豫<br>
+        <input type="checkbox">5.光辉岁月<br>
+        <input type="checkbox">6.喜欢妳<br>
+        <input type="checkbox">7.偏偏喜欢你<br>
+        <input type="checkbox">8.爱拼才会赢<br>
+        <input type="checkbox">9.老街<br>
+    </section>
+
+    <section class="panel-footer">
+        <hr>
+        <button id="allSelected">全选</button>
+        <button id="reverseSelect">反选</button>
+        <button id="cancelSelect">取消选中</button>
+    </section>
+
+</div>
+
+<script>
+    window.onload = function() {
+
+        //获取所有复选框
+        var inputs = document.querySelectorAll('input');
+
+        //全选
+        var allSelect = $("allSelected");
+        allSelect.onclick = function () {
+            for (var i=0; i<inputs.length;i++){
+                var singleInput = inputs[i];
+                singleInput.checked = true;
+            }
+        }
+
+        //反选
+        var reverseSelect = $("reverseSelect");
+        reverseSelect.onclick = function () {
+            for (var i=0; i<inputs.length; i++) {
+                var sInput = inputs[i];
+
+                sInput.checked = !sInput.checked;
+            }
+        }
+
+         //取消选中
+        var cancelSelect = $("cancelSelect");
+
+        cancelSelect.onclick = function () {
+            for (var i = 0; i < inputs.length; i++) {
+                var sInput = inputs[i];
+                sInput.checked = false;
+            }
+        }
+
+
+        //封装一个方法：传一个id 返回对应的元素
+        function $(id) {
+            return typeof id === "string" ? document.getElementById(id) : null;
+        }
+    }
+</script>
+
+</body>
+</html>
