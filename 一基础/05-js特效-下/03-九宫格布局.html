@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>九宫格布局demo</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #top {
+            padding: 20px;
+        }
+
+        #bottom {
+            position: relative;
+        }
+
+        .box {
+            width: 220px;
+            height: 380px;
+            margin: 15px;
+            background-color: #e8e8e8;
+        }
+        .box p:last-child {
+            font-size: 13px;
+            color: orange;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="top">
+    <button>3列</button>
+    <button>4列</button>
+    <button>5列</button>
+</div>
+
+<div id="bottom">
+    
+    <div class="box">
+        <img src="image/1.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+    <div class="box">
+        <img src="image/2.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+    <div class="box">
+        <img src="image/3.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+    <div class="box">
+        <img src="image/4.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+    <div class="box">
+        <img src="image/5.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+    <div class="box">
+        <img src="image/6.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+    <div class="box">
+        <img src="image/7.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+    <div class="box">
+        <img src="image/8.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+    <div class="box">
+        <img src="image/9.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+    <div class="box">
+        <img src="image/10.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+    <div class="box">
+        <img src="image/11.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+    <div class="box">
+        <img src="image/12.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+    <div class="box">
+        <img src="image/13.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+    <div class="box">
+        <img src="image/14.jpg" alt="">
+        <p>阿甘正传</p>
+        <p>无自律，不成功，就这样，希望你坚持</p>
+    </div>
+</div>
+
+<script>
+    window.onload = function(){
+
+        //1.获取所需元素
+        var btns = $('top').children;
+        var bottom = $('bottom');
+
+        //2。监听按钮点击
+        btns[0].onclick = function () {
+            j_flex(3,bottom);
+        }
+        btns[1].onclick = function(){
+            j_flex(4,bottom);
+        }
+        btns[2].onclick = function(){
+            j_flex(5,bottom);
+        }
+
+    };
+
+    function j_flex(allCols, parentNode) {
+        //2.1 定义变量
+        var boxW = 220, boxH = 380 , marginXY = 15;
+
+        //2.2 遍历
+        for (var i=0; i<parentNode.children.length; i++){
+            //2.2.1 求出当前盒子所在的行、列
+            var row = parseInt(i / allCols);
+            var col = parseInt(i % allCols);
+            // console.log("当前盒子所在的行:" + row + "列：" + col);
+
+
+            //2.2.2 定位
+            var currentBox = parentNode.children[i];
+            // console.log('当前盒子是:'+currentBox);
+            currentBox.style.position = 'absolute';
+            currentBox.style.left = col * (boxW + marginXY) + 'px';
+            currentBox.style.top = row * (boxH + marginXY) + 'px';
+
+
+        }
+
+    }
+
+
+
+    function $(id) {
+        return typeof id === 'string' ? document.getElementById(id):null;
+    }
+
+</script>
+</body>
+</html>
