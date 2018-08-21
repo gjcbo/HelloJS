@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01-Date基本使用</title>
+</head>
+<body>
+
+<script>
+    <!--申明日期对象-->
+    var date = new Date();
+    // console.log(date);
+
+    //日、月、星期几、完整的年份、时、分、秒、毫秒、时间戳
+    console.log(date.getDate()); //日：每月的第几天
+    console.log(date.getDay()); //星期几
+    console.log(date.getMonth()+1); //月：记得+1 才是当前月份
+    console.log(date.getFullYear()); //年
+    console.log(date.getHours()); //时
+    console.log(date.getMinutes());//分
+    console.log(date.getSeconds());//秒
+    console.log(date.getMilliseconds()); //毫秒。
+    console.log(date.getTime()); //时间戳
+
+</script>
+</body>
+</html>

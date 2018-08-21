@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02-日期特效</title>
+    <style type="text/css">
+        #box{
+            background-color: orangered;
+            width: 250px;
+            height:300px;
+
+            /*居中*/
+            margin: 100px auto;
+            /*内边距 会导致盒子变大*/
+            padding: 20px;
+        }
+        
+        #box_top {
+            color: #fff;
+            font-size: 23px;
+
+            /*!*这三行代码作用：实现内容居中*!*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        #box_bottom {
+            width: 90%;
+            height: 70%;
+
+            color: #fff;
+            font-size: 100px;
+            background-color: orange;
+
+            /*div居中*/
+            margin: 0 auto;
+
+            /*div 内的 内容居中*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+
+</head>
+<body>
+<div id="box">
+    <div id="box_top"></div>
+    <div id="box_bottom"></div>
+</div>
+
+<script>
+    window.onload = function(){
+        //1.创建日期对象
+        var date = new Date();
+
+        var y = date.getFullYear();
+        var m = date.getMonth();
+        var d = date.getDate();
+        var week = date.getDay();
+
+        var weeks = ['星期一','星期二','星期三','星期四','星期五','星期六','星期日'];
+
+        //2.赋值
+        $('box_top').innerHTML = y + '年' + m + '月' + d + '日' + weeks[week];
+        $('box_bottom').innerHTML = d;
+    };
+
+    function $(id) {
+        return typeof  id === 'string' ? document.getElementById(id) : null;
+    }
+</script>
+</body>
+</html>

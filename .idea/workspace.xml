@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc164e8-a1c0-409f-a523-2c9a8af25564" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/一基础/05-js特效-下/01-面试.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/一基础/05-js特效-下/02-发表评论.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/一基础/05-js特效-下/03-九宫格布局.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/一基础/07-Date/01-Date基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/一基础/07-Date/02-日期特效.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,29 +23,29 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.4" value="6" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="8" />
+          <entry key="html" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="8" />
+          <entry key="HTML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="7785" />
+          <entry key="html" value="9510" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="7785" />
+          <entry key="HTML" value="9510" />
         </counts>
       </usages-collector>
     </session>
@@ -54,10 +53,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/一基础/05-js特效-下/03-九宫格布局.html">
+        <entry file="file://$PROJECT_DIR$/一基础/07-Date/02-日期特效.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
+            <state relative-caret-position="218">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -90,6 +89,8 @@
         <option value="$PROJECT_DIR$/一基础/05-js特效-下/01-面试.html" />
         <option value="$PROJECT_DIR$/一基础/05-js特效-下/02-发表评论.html" />
         <option value="$PROJECT_DIR$/一基础/05-js特效-下/03-九宫格布局.html" />
+        <option value="$PROJECT_DIR$/一基础/07-Date/01-Date基本使用.html" />
+        <option value="$PROJECT_DIR$/一基础/07-Date/02-日期特效.html" />
       </list>
     </option>
   </component>
@@ -100,7 +101,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="249" />
+    <option name="x" value="147" />
     <option name="y" value="23" />
     <option name="width" value="1324" />
     <option name="height" value="791" />
@@ -111,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,19 +128,13 @@
               <item name="HelloJS" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloJS" type="462c0819:PsiDirectoryNode" />
               <item name="一基础" type="462c0819:PsiDirectoryNode" />
-              <item name="05-js特效-下" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloJS" type="462c0819:PsiDirectoryNode" />
-              <item name="一基础" type="462c0819:PsiDirectoryNode" />
-              <item name="05-js特效-下" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="07-Date" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,6 +146,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/一基础" />
       <recent name="$PROJECT_DIR$/一基础/04-常用事件补充" />
     </key>
   </component>
@@ -187,14 +182,15 @@
       <workItem from="1534347240200" duration="471000" />
       <workItem from="1534517475345" duration="253000" />
       <workItem from="1534766382242" duration="5386000" />
+      <workItem from="1534811425453" duration="2092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12637000" />
+    <option name="totallyTimeSpent" value="14729000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="249" y="23" width="1324" height="791" extended-state="0" />
+    <frame x="147" y="23" width="1324" height="791" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2494244" />
@@ -263,8 +259,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/一基础/05-js特效-下/03-九宫格布局.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
+        <state relative-caret-position="598">
           <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/一基础/07-Date/01-Date基本使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/一基础/07-Date/02-日期特效.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
