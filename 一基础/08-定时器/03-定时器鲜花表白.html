@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03-定时鲜花表白</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body{
+            background-color: #000;
+            padding: 100px;
+        }
+        #time{
+            font-size: 100px;
+            color: red;
+            -ms-text-align-last: right;
+            text-align: center;
+        }
+        #pic{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<!--思路：一开始影藏图片，计时结束显示图片，清除定时器，影藏时间-->
+<div id="time">2</div>
+<img id="pic" src="images/flower.gif" alt="">
+</body>
+
+<script>
+    window.onload = function () {
+
+        var timer = setInterval(function () {
+
+            $('time').innerText -= 1;
+
+            if ($('time').innerText  === '0') {
+
+                //清除定时器
+                clearInterval(timer);
+
+                //隐藏时间，显示图片
+                $('time').style.display = 'none';
+                $('pic').style.display = 'block';
+            }
+        },1000);
+    };
+
+    function $(id) {
+        return typeof id==='string' ? document.getElementById(id) : null;
+    }
+</script>
+</html>

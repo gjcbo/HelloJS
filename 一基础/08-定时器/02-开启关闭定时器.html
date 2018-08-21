@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<p>问题：多次点击导致停止不了定时器</p>
+<button id="btn1">开启定时器</button>
+<button id="btn2">结束定时器</button>
+
+<script>
+    window.onload = function () {
+        //1.获取需要的标签
+        var btn1 = $('btn1');
+        var btn2 = $('btn2');
+
+        var times = 0, timer = null;
+
+        //多次点击就是往对列中添加多个定时器，停止的时候只是停掉了最后一个，多次点击开启定时器会有问题
+        //需要加判断，如果之前创建过定时器，就先清除后在添加新的定时器。
+        //开启定时器
+        btn1.onclick = function () {
+            //解决:多次点击定时器无法停止问题
+            timer !== null && clearInterval(timer);
+
+           timer = setInterval(function () {
+               console.log('次数' + times);
+
+               times += 1;
+            },1000);
+
+        };
+
+    //    关闭定时器
+        btn2.onclick = function () {
+
+            //clearInterval() 只清除最后一个定时器
+            clearInterval(timer);
+            console.log(timer);
+        }
+    };
+
+    function $(id) {
+        return typeof  id === 'string' ? document.getElementById(id) : null;
+    }
+</script>
+</body>
+</html>

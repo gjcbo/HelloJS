@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05-放假倒计时</title>
+    <style type="text/css">
+        #time{
+            font-size: 40px;
+            color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="time"></div>
+    <script>
+        window.onload  = function () {
+            //1.获取需要的标签
+            var time = $('time');
+
+            //2.自定义将来：放假时间
+            var nextDate = new Date('2018-10-1 08:30:00');
+
+            console.log(nextDate);
+            //3.开启定时器
+            setInterval(function () {
+                //4.获取现在时间
+                var currentDate = new Date();
+
+                //5.获取时间戳
+                var currentTime = currentDate.getTime();
+                var nextTime =  nextDate.getTime();
+
+                //6.计算时间差
+                var allTime = nextTime - currentTime;
+
+                //7.单位转换:毫秒转换为秒
+                var allSecond  = parseInt(allTime/1000);
+
+                //8.转换
+                var d = size(parseInt(allSecond / 3600 / 24));
+                var h = size(parseInt(allSecond / 3600 % 24));
+                var m = size(parseInt(allSecond / 60 % 60));
+                var s = size(parseInt(allSecond % 60 ));
+
+            //    9.注入
+                time.innerText = "距离放假还有" + d + "天" + h+"小时" + m+"分钟"+s+"秒";
+            },1000);
+        };
+
+        function $(id) {
+            return typeof id === 'string' ? document.getElementById(id) : null;
+        }
+
+        function size(num) {
+            var result = num >= 10 ? num : "0"+num;
+            console.log(result);
+            return result;
+        }
+
+    </script>
+</body>
+</html>
