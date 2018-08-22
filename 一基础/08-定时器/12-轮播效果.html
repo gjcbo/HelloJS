@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>12-轮播效果</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        a{
+            /*去掉下划线*/
+            text-decoration: none;
+            color: #000;
+        }
+
+        #box{
+            width: 322px;
+            height: 250px;
+            border: 1px solid #e8e8e8;
+            /*居中*/
+            margin: 100px auto;
+
+            /*欠缺的是: 定位浮动不懂，那就去学啊*/
+            /*position: relative;*/
+        }
+
+        .left, .right {
+            width: 60px;
+            height: 250px;
+
+            /*整体浮动：左，中，右 实现在同一水平面*/
+            float: left;
+
+            /*flex 布局*/
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+        }
+
+        .center {
+            width: 200px;
+            height: 250px;
+            float: left;
+            overflow: hidden;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+        }
+
+        /*约束图片的宽高*/
+        .center a img {
+            width: 200px;
+            height: 250px;
+        }
+
+        /*当前选中的的颜色*/
+        .current {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="box">
+    <ul class="left">
+        <li class="current"><a href="">美食1</a></li>
+        <li><a href="">美食2</a></li>
+        <li><a href="">美食3</a></li>
+
+    </ul>
+
+    <div class="center">
+        <a href=""><img src="images/img1.jpg" alt=""></a>
+        <a href=""><img src="images/img2.jpg" alt=""></a>
+        <a href=""><img src="images/img3.jpg" alt=""></a>
+        <a href=""><img src="images/img4.jpg" alt=""></a>
+        <a href=""><img src="images/img5.jpg" alt=""></a>
+        <a href=""><img src="images/img6.jpg" alt=""></a>
+    </div>
+
+    <ul class="right">
+        <li><a href="#">美食4</a></li>
+        <li><a href="#">美食5</a></li>
+        <li><a href="#">美食6</a></li>
+    </ul>
+</div>
+
+
+<script>
+    window.onload = function () {
+        //1.获取需要的标签
+        var allLi = document.getElementsByTagName('li');
+        var center = document.getElementsByClassName('center')[0];
+        var allImgs = center.getElementsByTagName('img');
+
+        //2.索引
+        var loop = 0;
+
+        //3.定时器
+        setInterval(function () {
+            //3.1 索引++
+            loop += 1;
+            loop %= 6;
+
+            //3.2 排他
+            for (var i=0; i<allLi.length; i++) {
+                allLi[i].className = '';
+                allImgs[i].style.display = 'none';
+            }
+
+            //3.3 自己选中
+            allLi[loop].className = 'current';
+            allImgs[loop].style.display = 'block';
+        },1000);
+
+
+    };
+
+    function $(id) {
+        return typeof id === 'string' ? document.getElementById(id) : null;
+    }
+</script>
+</body>
+</html>
