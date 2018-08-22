@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc164e8-a1c0-409f-a523-2c9a8af25564" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/一基础/08-定时器/01-基础.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/一基础/08-定时器/02-开启关闭定时器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/一基础/08-定时器/03-定时器鲜花表白.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/一基础/08-定时器/04-自定义时间.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/一基础/08-定时器/05-放假倒计时.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/一基础/08-定时器/06-时钟.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,41 +18,78 @@
     <session id="1788151322">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.4" value="6" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="17" />
+          <entry key="html" value="19" />
+          <entry key="png" value="3" />
           <entry key="ts" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="17" />
+          <entry key="HTML" value="19" />
+          <entry key="Image" value="3" />
           <entry key="TypeScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="12779" />
+          <entry key="html" value="14188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="12779" />
+          <entry key="HTML" value="14188" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/一基础/08-定时器/05-放假倒计时.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/一基础/08-定时器/06-时钟.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/一基础/08-定时器/images/hour.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/一基础/08-定时器/images/second.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/一基础/08-定时器/images/minute.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,6 +125,7 @@
         <option value="$PROJECT_DIR$/一基础/08-定时器/03-定时器鲜花表白.html" />
         <option value="$PROJECT_DIR$/一基础/08-定时器/04-自定义时间.html" />
         <option value="$PROJECT_DIR$/一基础/08-定时器/05-放假倒计时.html" />
+        <option value="$PROJECT_DIR$/一基础/08-定时器/06-时钟.html" />
       </list>
     </option>
   </component>
@@ -102,7 +136,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="194" />
+    <option name="x" value="116" />
     <option name="y" value="23" />
     <option name="width" value="1324" />
     <option name="height" value="791" />
@@ -113,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,6 +169,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,6 +177,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -188,14 +223,17 @@
       <workItem from="1534811425453" duration="3363000" />
       <workItem from="1534823130572" duration="106000" />
       <workItem from="1534856065988" duration="4757000" />
+      <workItem from="1534915069549" duration="2173000" />
+      <workItem from="1534917286843" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20863000" />
+    <option name="totallyTimeSpent" value="23049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="194" y="23" width="1324" height="791" extended-state="0" />
+    <frame x="116" y="23" width="1324" height="791" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2494244" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -275,13 +313,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/一基础/07-Date/测试.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="483" selection-start-line="20" selection-start-column="483" selection-end-line="20" selection-end-column="483" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/一基础/07-Date/测试.html" />
     <entry file="file://$PROJECT_DIR$/一基础/08-定时器/01-基础.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
@@ -310,13 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/一基础/08-定时器/05-放假倒计时.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1458">
-          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/一基础/08-定时器/04-自定义时间.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -328,6 +353,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/一基础/08-定时器/05-放假倒计时.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/一基础/08-定时器/images/hour.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/一基础/08-定时器/images/second.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/一基础/08-定时器/images/minute.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/一基础/08-定时器/06-时钟.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
         </state>
       </provider>
     </entry>
