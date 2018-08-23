@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--引入外部js库-->
+<script src="js/underscore-min.js"></script>
+<!--使用-->
+<script>
+    var dataArr = ["张三",19,"男",100,15837694444];
+
+    //underscore的所有方法都以 _. 开头
+    //1.遍历数组
+    _.each(dataArr,function (item, index,arr) {
+        // console.log(item, index,arr);
+    });
+
+    // _.each([1, 2, 3], alert);
+
+    // _.each({one:1, two:2, three:3}, alert);
+
+
+    //2.随机数:
+    var randomNum = _.random(-5,5);
+    // console.log(randomNum); //取值范围 [-5, 5]
+
+    //3.删除元素
+    console.log(_.without(dataArr, "张三"));
+
+</script>
+</body>
+</html>

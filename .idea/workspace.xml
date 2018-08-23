@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc164e8-a1c0-409f-a523-2c9a8af25564" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/01-星星海特效/images/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/01-星星海特效/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/02-三方库UnderScore/01-underScore的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/02-三方库UnderScore/js/underscore-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/images/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/images/pic10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/images/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/images/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/images/pic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/images/pic5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/images/pic6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/images/pic7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/images/pic8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/images/pic9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/js/underscore-min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记/一、webstrome编辑器的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/一、webstrome编辑器的使用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记/二、网页特效1.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/二、网页特效1.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,53 +33,87 @@
     <session id="1788151322">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="6" />
-          <entry key="project.open.time.4" value="6" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="27" />
-          <entry key="jpg" value="1" />
+          <entry key="html" value="29" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="1" />
           <entry key="png" value="4" />
           <entry key="ts" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="27" />
-          <entry key="Image" value="5" />
+          <entry key="HTML" value="29" />
+          <entry key="Image" value="6" />
+          <entry key="JavaScript" value="1" />
           <entry key="TypeScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="21020" />
+          <entry key="html" value="23675" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="21020" />
+          <entry key="HTML" value="23675" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/二JS进阶-网页特效/Day1/01-星星海特效/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="324">
+              <caret line="12" column="9" selection-start-line="12" selection-end-line="13" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/二JS进阶-网页特效/Day1/02-三方库UnderScore/01-underScore的使用.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/js/underscore-min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/images/pic1.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -80,6 +128,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>marginXY</find>
+      <find>current</find>
+      <find>ul</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,6 +161,8 @@
         <option value="$PROJECT_DIR$/一基础/08-定时器/11-定时器缓动动画.html" />
         <option value="$PROJECT_DIR$/一基础/08-定时器/12-轮播效果.html" />
         <option value="$PROJECT_DIR$/二JS进阶-网页特效/Day1/01-星星海特效/index.html" />
+        <option value="$PROJECT_DIR$/二JS进阶-网页特效/Day1/02-三方库UnderScore/01-underScore的使用.html" />
+        <option value="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/index.html" />
       </list>
     </option>
   </component>
@@ -121,10 +173,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="374" />
+    <option name="x" value="66" />
     <option name="y" value="23" />
-    <option name="width" value="1191" />
-    <option name="height" value="791" />
+    <option name="width" value="1440" />
+    <option name="height" value="793" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -156,7 +208,15 @@
               <item name="HelloJS" type="462c0819:PsiDirectoryNode" />
               <item name="二JS进阶-网页特效" type="462c0819:PsiDirectoryNode" />
               <item name="Day1" type="462c0819:PsiDirectoryNode" />
-              <item name="01-星星海特效" type="462c0819:PsiDirectoryNode" />
+              <item name="03-照片墙特效" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloJS" type="462c0819:PsiDirectoryNode" />
+              <item name="二JS进阶-网页特效" type="462c0819:PsiDirectoryNode" />
+              <item name="Day1" type="462c0819:PsiDirectoryNode" />
+              <item name="03-照片墙特效" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,12 +233,16 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效" />
+      <recent name="$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/二JS进阶-网页特效/Day1/02-三方库UnderScore/js" />
       <recent name="$PROJECT_DIR$/二JS进阶-网页特效/Day1/01-星星海特效/images" />
       <recent name="$PROJECT_DIR$/一基础/08-定时器" />
       <recent name="$PROJECT_DIR$/一基础/08-定时器/images" />
       <recent name="$PROJECT_DIR$/一基础" />
-      <recent name="$PROJECT_DIR$/一基础/04-常用事件补充" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,17 +287,20 @@
       <workItem from="1534925328421" duration="4714000" />
       <workItem from="1534942883981" duration="622000" />
       <workItem from="1534946046463" duration="2841000" />
+      <workItem from="1534978666283" duration="434000" />
+      <workItem from="1535021303002" duration="4667000" />
+      <workItem from="1535031773498" duration="1185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33899000" />
+    <option name="totallyTimeSpent" value="40185000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="374" y="23" width="1191" height="791" extended-state="0" />
+    <frame x="66" y="23" width="1440" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24788949" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24786325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -420,8 +487,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/二JS进阶-网页特效/Day1/01-星星海特效/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="324">
+          <caret line="12" column="9" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二JS进阶-网页特效/Day1/02-三方库UnderScore/01-underScore的使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/js/underscore-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/images/pic1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二JS进阶-网页特效/Day1/03-照片墙特效/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
